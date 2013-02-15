@@ -17,7 +17,7 @@ This software requires an Apache web server running PHP 5.0 or greater. It's hig
 ## Typical use
 
 1. Upload a [Markdown](http://daringfireball.net/projects/markdown/syntax) file (with the extension .md) to the files folder on your web server. Let's say the file you uploaded was named my_example.md.
-2. Open a web browser and go to http://yourserver.com/docs/my_example
+2. Open a web browser and go to http://yourdomain.com/my_example
 3. You can add folders to your URLs by inserting pipe characters ("|") in your file names. For example, uploading the file about|readme.md will be visible at http://yourdomain.com/about/readme
 
 ##Customization
