@@ -6,7 +6,14 @@ if (!isset($_GET['id'])) {
 } else {
 	$shortened_id = htmlspecialchars($_GET['id']);
 	$shortened_id = str_ireplace("/", "|", $shortened_id);
-	$contents = file_get_contents('files/' . $shortened_id . '.md');
+	$contents = @file_get_contents('files/' . $shortened_id . '.md');
+}
+
+if (!$contents) {
+	$shortened_id = "Not Found";
+	$contents = "#Not Found
+	
+Sorry, but we couldn't find what you're looking for.";
 }
 
 ?><!DOCTYPE html>
