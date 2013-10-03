@@ -2857,13 +2857,6 @@ class MarkdownExtra_Parser extends Markdown_Parser {
 	
 }
 
-function get_title ($string) {
-	$output = str_ireplace("|", ": ", $string);
-	$output = str_ireplace("-", " ", $output);
-	$output = str_ireplace("_", " ", $output);
-	return (ucwords($output));
-}
-
 
 /*
 
