@@ -8,7 +8,7 @@
 	
 	<title><? get_title(); ?></title>
 	
-	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css" rel="stylesheet"/>	
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"/>	
 	<link href="custom_styles.css" rel="stylesheet"/>	
 
 </head>
