@@ -1,8 +1,8 @@
 Cimsy
 =====
 
-* Version 1.0.1
-* 2013 February 15
+* Version 1.0.2
+* 2013 October 3
 
 ---
 
@@ -25,6 +25,7 @@ This software requires an Apache web server running PHP 5.0 or greater. It's hig
 * You can customize the HTML output of the tool by editing index.php. 
 * You can customize the style of the tool by editing custom_styles.css.
 * You can customize the default home page by editing files/index.md.
+* You can customize where the content files are located and the name of the homepage by editing cimsy.php and editing the values of variables in the "configure" section.
 
 ## License
 
