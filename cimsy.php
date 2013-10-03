@@ -40,7 +40,7 @@ function get_title () {
 	$output = str_ireplace("|", ": ", $string);
 	$output = str_ireplace("-", " ", $output);
 	$output = str_ireplace("_", " ", $output);
-	return (ucwords($output));
+	echo (ucwords($output));
 }
 
 function get_content() {
